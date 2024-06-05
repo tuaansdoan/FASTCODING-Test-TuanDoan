@@ -66,7 +66,12 @@ textarea:focus, input:focus {
 }
 
 input {
+  background-color: transparent;
   border-width: 0;
+}
+
+input[type="submit"]{
+  color: wheat;
 }
 
 em {
@@ -272,12 +277,17 @@ body {
   padding: 0 27px;
   position: relative;
   width: 135px;
-  background: url(images/download_button_copy.png) no-repeat;
+  border: 2px solid white;
   color: #ffffff;
   font-size: 0.9375rem; /* 15px / 16px = 0.9375rem */
   font-weight: 600;
   line-height: 42px;
   text-align: center;
+}
+.download-button-holder:hover,
+.download-button-copy-holder:hover{
+  background-color: white;
+  color: black;
 }
 .signup {
   float: right;
@@ -332,12 +342,16 @@ body {
   max-width: 360px;
   min-height: 54px;
   width: 360px;
-  background: url(images/btn_primary_block_level_u.png) no-repeat;
+  background-color: #ff8b38;
   color: #ffffff;
   font-size: 0.9375rem; /* 15px / 16px = 0.9375rem */
   font-weight: 600;
   line-height: 54px;
   text-align: center;
+}
+
+.btn_primary_block_level_u79_mouseover-holder:hover{
+background-color: #a84d0c;
 }
 .main-content-wrapper {
   margin: -1px 0 0;
@@ -369,7 +383,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 112px;
-  background: url(images/tab_1_button_u83_selected.png) no-repeat;
+  background-color: #3b3b3b;
 }
 .text-5 {
   max-width: 112px;
@@ -388,7 +402,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 112px;
-  background: url(images/tab_2_button_u85_mouseove.png) no-repeat;
+  background-color: #3b3b3b;
 }
 .text-6 {
   max-width: 112px;
@@ -406,7 +420,7 @@ body {
   min-height: 112px;
   position: relative;
   width: 112px;
-  background: url(images/tab_3_button_u87_mouseove.png) no-repeat;
+  background-color: #3b3b3b;
 }
 .text-7 {
   max-width: 112px;
@@ -419,6 +433,11 @@ body {
   line-height: 112px;
   text-align: center;
 }
+
+.tab:hover{
+background-color: #ff8b38;
+}
+
 .col-10 {
   float: left;
   margin: 6px 0 0 99px;
@@ -441,13 +460,21 @@ body {
   padding: 0 20px;
   position: relative;
   width: 121px;
-  background: url(images/btn_primary_u98.png) no-repeat;
+  background-color: #ff8b38;
   color: #ffffff;
   font-size: 0.9375rem; /* 15px / 16px = 0.9375rem */
   font-weight: 600;
   line-height: 46px;
   text-align: center;
+  border-radius: 5px;
 }
+
+.btn_primary_u98-holder:hover{
+  background-color: transparent;
+  border: 1px solid orange;
+  color: orange
+}
+
 .image_right_u255 {
   float: left;
   margin: 24px 0 0 92px;
@@ -746,13 +773,15 @@ body {
   margin: 33px auto 0;
   min-height: 42px;
   padding: 0 26px;
-  background: url(images/download_button_copy.png) no-repeat;
+  border: 1px solid white;
   color: #ffffff;
   font-size: 0.9375rem; /* 15px / 16px = 0.9375rem */
   font-weight: 600;
   line-height: 42px;
   text-align: center;
 }
+
+
 .footer {
   position: relative;
   z-index: 2;
