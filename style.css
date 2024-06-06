@@ -172,7 +172,7 @@ html {
 }
 
 html {
-  font-size: 16px;
+  font-size: 26px;
 }
 
 body {
@@ -322,8 +322,6 @@ body {
 
 .card_header_u257-1-holder {
   margin: 0 auto;
-  max-width: 360px;
-  min-height: 54px;
   width: 360px;
   background: url(images/card_header_u257_1.png) no-repeat;
   color: #333333;
@@ -1030,4 +1028,10 @@ body {
 
 .text-style {
   line-height: 20px;
+}
+
+@media screen and (min-width: 767px) {
+  html {
+    font-size: 16px;
+  }
 }
